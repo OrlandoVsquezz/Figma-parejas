@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+
+}
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 29px;
+    /*position: relative;
+    min-height: 30px;*/
+}
+
+footer p {
+    color: white;
+}
