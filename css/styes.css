@@ -13,11 +13,15 @@ header {
     background-color: #000000;
     padding: 10px;
     font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 nav img {
     width: 150px;
-    padding: 0px 1100px 0px 0px;
+    padding: 0px 100px;
+    
 }
 
 nav {
@@ -67,4 +71,24 @@ h1 {
 
 .imagenesmenu img {
     width: 400px;
+}
+
+@media (width <= 480px) {
+    nav {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+    
+    .imagenesmenu {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .imagen {
+        padding: 10px 0px;
+    }
 }
