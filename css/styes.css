@@ -73,6 +73,27 @@ h1 {
     width: 400px;
 }
 
+.huno {
+    padding: 50px 0px 0px 0px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.ubi {
+    color: white;
+    background-color: #000000;
+    padding: 140px 100px;
+    margin: 70px 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ubi img {
+    padding: 10px;
+}
+
 @media (width <= 480px) {
     nav {
         flex-direction: column;
