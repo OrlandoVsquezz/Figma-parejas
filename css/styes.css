@@ -112,4 +112,24 @@ h1 {
     .imagen {
         padding: 10px 0px;
     }
+    
+    .ubicacion {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .linea {
+        width: 10px;
+    }
+
+    .ubi {
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .image {
+        width: 200px;
+    }
+
 }
